@@ -1,0 +1,11 @@
+<web-app>
+	<servlet>
+		<servlet-name>DuplicateService</servlet-name>
+		<servlet-class>DuplicateService</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DuplicateService</servlet-name>
+		<url-pattern>dup</url-pattern>
+	</servlet-mapping>
+</web-app>

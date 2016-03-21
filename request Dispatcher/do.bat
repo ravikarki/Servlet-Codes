@@ -1,0 +1,1 @@
+set PATH=G:\mca\java\Softwares\jdk160_29\bin;G:\mca\java\Softwares\wlserver_12.1\server\lib\weblogic.jar;

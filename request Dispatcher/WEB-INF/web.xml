@@ -1,0 +1,40 @@
+<web-app>
+	<servlet>
+		<servlet-name>ReqDispatcher</servlet-name>
+		<servlet-class>ReqDispatcher</servlet-class>
+		
+		<init-param>
+			<param-name>driver</param-name>
+			<param-value>oracle.jdbc.driver.OracleDriver</param-value>
+		</init-param>
+		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Welcome</servlet-name>
+		<servlet-class>Welcome</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Error</servlet-name>
+		<servlet-class>Error</servlet-class>
+	</servlet>
+	
+	
+	<servlet-mapping>
+		<servlet-name>ReqDispatcher</servlet-name>
+		<url-pattern>/send</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Welcome</servlet-name>
+		<url-pattern>/wel</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Error</servlet-name>
+		<url-pattern>/err</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>

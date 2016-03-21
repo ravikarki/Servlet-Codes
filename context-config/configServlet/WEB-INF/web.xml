@@ -1,0 +1,25 @@
+<web-app>
+	<servlet>
+		<servlet-name>ConfigServlet</servlet-name>
+		<servlet-class>ConfigServlet</servlet-class>
+		
+		<init-param>
+			<param-name>driver</param-name>
+			<param-value>oracle.jdbc.odbc.OracleDriver</param-value>
+		</init-param>
+		
+		<init-param>
+			<param-name>image</param-name>
+			<param-value>image.jpg</param-value>
+		</init-param>
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ConfigServlet</servlet-name>
+		<url-pattern>/config</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+</web-app>

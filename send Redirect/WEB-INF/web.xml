@@ -1,0 +1,20 @@
+<web-app>
+	<servlet>
+		<servlet-name>SendRedirect</servlet-name>
+		<servlet-class>SendRedirect</servlet-class>
+		
+		<init-param>
+			<param-name>driver</param-name>
+			<param-value>oracle.jdbc.odbc.OracleDriver</param-value>
+		</init-param>
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>SendRedirect</servlet-name>
+		<url-pattern>/send</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+</web-app>

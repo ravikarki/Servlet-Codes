@@ -1,0 +1,11 @@
+<web-app>
+	<servlet>
+		<servlet-name>ActualService</servlet-name>
+		<servlet-class>ActualService</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ActualService</servlet-name>
+		<url-pattern>actual</url-pattern>
+	</servlet-mapping>
+</web-app>
